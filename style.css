@@ -1,0 +1,35 @@
+.rainbow {
+  width: 50%;
+  height: 100px;
+  background-color: red;
+}
+
+@media (min-width: 600px) {
+  .rainbow { 
+ background-color: violet;
+ width: 50%;
+  }
+  
+}
+
+@media (min-width: 500px) {
+  .rainbow {
+    background-color: indigo;
+}
+}
+@media (min-width: 400px) {
+  .rainbow {
+    background-color:yellowgreen;
+}
+}
+@media (min-width: 300px) {
+  .rainbow {
+    background-color: yellow;
+}
+}
+
+@media (min-width: 200px) {
+  .rainbow {
+    background-color: orange;
+}
+}
