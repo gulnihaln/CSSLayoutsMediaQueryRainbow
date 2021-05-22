@@ -1,35 +1,33 @@
 .rainbow {
-  width: 50%;
+  width:50%;
   height: 100px;
   background-color: red;
 }
 
-@media (min-width: 600px) {
-  .rainbow { 
- background-color: violet;
- width: 50%;
-  }
-  
-}
-
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   .rainbow {
-    background-color: indigo;
+    background-color: rgba(255, 136, 0, 0.959);
 }
 }
-@media (min-width: 400px) {
-  .rainbow {
-    background-color:yellowgreen;
-}
-}
-@media (min-width: 300px) {
+@media (min-width: 800px) {
   .rainbow {
     background-color: yellow;
 }
 }
-
-@media (min-width: 200px) {
+@media (min-width: 900px) {
   .rainbow {
-    background-color: orange;
+    background-color: green;
 }
+}
+
+@media (min-width: 1000px) {
+  .rainbow {
+    background-color: indigo;
+  }
+}
+
+@media (min-width: 1100px) {
+  .rainbow {
+    background-color:violet;
+  }
 }
